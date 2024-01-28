@@ -6,4 +6,10 @@
 	<extension point="xbmc.python.script" library="addon.py">
 		<provides>executable</provides>
 	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Addon to switch from Kodi to Retropie</summary>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
