@@ -12,10 +12,10 @@ import time
 import os
 
 def close_kodi():
-    xbmc.executebuiltin('XBMC.Quit()')
+    # xbmc.executebuiltin('XBMC.Quit()')
+    xbmc.executebuiltin('Quit()')
 
 def is_kodi_running():
-    # Check if Kodi is running
     return xbmc.getCondVisibility('System.IsKodiRunning')
 
 def open_retropie():
